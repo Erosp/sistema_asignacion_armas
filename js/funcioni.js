@@ -75,7 +75,7 @@ $(document).ready(function(){
                         $.ajax
                         ({
 
-                            url: "http://localhost/inventario/login/entrar",
+                            url: "http://saa.com/login/entrar",
                             method: "POST",
                             data: {usu:usu, clave:pass},
                             success: function(response)

@@ -13,7 +13,7 @@ class Login_modelo extends CI_Model
     function entrar($usu, $clave)
     {
         
-        $this->db->where("nombre_usuario", $usu);
+        $this->db->where("cedula_persona", $usu);
         $this->db->where("clave_usuario", $clave);
         $consulta=$this->db->get("usuario");
         

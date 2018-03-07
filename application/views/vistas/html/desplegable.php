@@ -8,16 +8,16 @@
                     <li class="nav-item">
                         <a class="nav-link text-primary" href="<?= base_url() ?>menu">Inicio <span class="sr-only">(current)</span></a>
                     </li><li class="nav-item">
-                        <a class="nav-link text-primary" href="#">Entrada</a>
+                        <a class="nav-link text-primary" href="#">Asignaciones</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary" href="#">Salida</a>
+                        <a class="nav-link text-primary" href="#">Entregas</a>
                     </li><li class="nav-item"><li class="nav-item">
                         <a class="nav-link text-primary" href="#">Inventario</a>
                     </li><li class="nav-item">
-                        <a class="nav-link text-primary" href="<?= base_url() ?>producto">Producto</a>
+                        <a class="nav-link text-primary" href="<?= base_url() ?>">Instrumentaria</a>
                     </li><li class="nav-item">
-                        <a class="nav-link text-primary" href="#">Contacto</a>
+                        <a class="nav-link text-primary" href="#">Funcionarios</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
@@ -26,7 +26,7 @@
                         Administrador
                       </a>
                       <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Perfiles</a>
+                        <a class="dropdown-item" href="#">Perfil</a>
                         <a class="dropdown-item" href="#">Usuarios</a>
                         <a class="dropdown-item" href="#">Cerrar Sesi&oacute;n</a>
                       </div>
