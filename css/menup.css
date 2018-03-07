@@ -1,0 +1,18 @@
+.fondo-nav {
+    background-color: #D8D8D8;
+}
+
+.tabla {
+    padding: 3px;
+    border: 1px solid black;
+}
+
+#logo {
+    background-image: url('img/sisinv.png');
+    height: 185px;
+    width: 490px;
+}
+
+h1 {
+    font-family: serif;
+}

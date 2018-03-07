@@ -1,0 +1,17 @@
+.contenido {
+    background: #4d2f5e;
+}
+
+.columna {
+    border: 1px black solid;
+    background: black;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+submit
+{
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.fondo-nav {
+    background-color: #D8D8D8;
+}
+
+.tabla {
+    padding: 5px;
+    border-collapse: separate;
+    background: #ddd;
+    border: 3px solid #D8D8D8;
+}
+
+.columna {
+    padding: 3px;
+}
