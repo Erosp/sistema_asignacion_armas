@@ -12,7 +12,7 @@
     </head>
     <body class="bg-light">
         <div class="container">
-            <center><h1>Bienvenido al Inventario</h1></center>
+            <center><h1>Bienvenido al </h1></center>
             <div class="row">
                 <div class="col-sm-1 col-md-4"></div>
                 <div class="col-sm-10 col-md-4 columna rounded">
