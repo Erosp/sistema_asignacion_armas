@@ -12,6 +12,7 @@
         <script type="text/javascript" src="<?= base_url() ?>js/arma.js"></script>
     </head>
     <body>
+        <div id="cortina"></div>
         <?php include("desplegable.php"); ?>
         <center>
             <br>
@@ -19,6 +20,11 @@
             <div id="tabla"></div><br>
             <div id="registro">
                 <table>
+                    <tr>
+                        <td colspan="5" align="right">
+                            <label class="ico-atras"></label>
+                        </td>
+                    </tr>
                     <tr>
                         <th>Serial</th>
                         <th>Calibre</th>
@@ -35,6 +41,11 @@
                         </td>
                     </tr>
                 </table>
+            </div>
+            <div id="eliminacion">
+                <h1>¿Realmente desea eliminar?</h1><br>
+                <button class="btn-confirmar-eliminar" value="" id="si">S&iacute;</button>
+                <button class="btn-confirmar-eliminar" id="no">No</button>
             </div>
         </center>
     </body>

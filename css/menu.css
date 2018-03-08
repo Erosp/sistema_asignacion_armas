@@ -1,3 +1,17 @@
+/*
+
+color del icono editar
+
+5ADB5A
+
+*/
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
 .fondo-nav {
     background-color: #D8D8D8;
 }
@@ -8,10 +22,44 @@
     border-collapse: separate;
 }
 
+.columna {
+    vertical-align: middle;
+}
+
 #logo {
     background-image: url('img/sisinv.png');
     height: 185px;
     width: 490px;
+}
+
+.ico-atras {
+    background-image: url('img/atras.png');
+    height: 32px;
+    width: 32px;
+}
+
+.ico-editar {
+    margin-top: 10px;
+    background-image: url('img/editar.png');
+    height: 24px;
+    width: 24px;
+}
+
+.ico-editar:hover {
+    cursor: pointer;
+    background-image: url('img/editarHover.png');
+}
+
+.ico-eliminar {
+    margin-top: 10px;
+    background-image: url('img/eliminar.png');
+    height: 24px;
+    width: 24px;
+}
+
+.ico-eliminar:hover {
+    cursor: pointer;
+    background-image: url('img/eliminarHover.png');
 }
 
 #titulo {
@@ -21,7 +69,33 @@
 #registro {
     background-color: red;
     width: 500px;
+    z-index: 2;
+    position: absolute;
+    display: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+#eliminacion {
+    background-color: blue;
+    width: 800px;
+    z-index: 2;
+    position: absolute;
+    display: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+#cortina {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
     z-index: 1;
+    position: absolute;
     display: none;
 }
 

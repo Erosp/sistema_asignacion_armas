@@ -44,6 +44,24 @@ class Arma extends CI_Controller
             
         }
         
+        else if($operacion=="eliminar")
+        {
+            
+            $serial=$this->input->post("serial");
+            
+            $this->eliminar($serial);
+            
+        }
+        
+        else if($operacion=="obtenerConId")
+        {
+            
+            $serial=$this->input->post("serial");
+            
+            $this->obtenerConId($serial);
+            
+        }
+        
     }
     
     function obtener()
@@ -84,6 +102,30 @@ class Arma extends CI_Controller
         
         $resultado=$this->arma_modelo->actualizar($datos, $serial);
                 
+    }
+    
+    function eliminar($serial)
+    {
+        
+        $datos=array(
+            "estatus_arma" => "INACTIVO"
+        );
+        
+        $this->load->model("arma_modelo");
+        
+        $resultado=$this->arma_modelo->eliminar($datos, $serial);
+                
+    }
+    
+    function obtenerConId($serial)
+    {
+        
+        $this->load->model("arma_modelo");
+        
+        $resultado=$this->arma_modelo->obtenerConId($serial);
+        
+        echo $resultado;
+        
     }
     
 }
