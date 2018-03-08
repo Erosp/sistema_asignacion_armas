@@ -8,15 +8,25 @@
                     <li class="nav-item">
                         <a class="nav-link text-primary" href="<?= base_url() ?>menu">Inicio <span class="sr-only">(current)</span></a>
                     </li><li class="nav-item">
-                        <a class="nav-link text-primary" href="#">Asignaciones</a>
+                        <a class="nav-link text-primary" href="<?= base_url() ?>asignaciones">Asignaciones</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-primary" href="#">Entregas</a>
-                    </li><li class="nav-item"><li class="nav-item">
+                    </li>
+                    <li class="nav-item"><li class="nav-item">
                         <a class="nav-link text-primary" href="#">Inventario</a>
-                    </li><li class="nav-item">
-                        <a class="nav-link text-primary" href="<?= base_url() ?>">Instrumentaria</a>
-                    </li><li class="nav-item">
+                    </li>
+                    <div class="dropdown show">
+                      <a class="btn dropdown-toggle text-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Instrumentaria
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Accesorios</a>
+                        <a class="dropdown-item" href="<?= base_url() ?>arma">Armas</a>
+                        <a class="dropdown-item" href="#">Munici&oacute;n</a>
+                      </div>
+                    </div>
+                    <li class="nav-item">
                         <a class="nav-link text-primary" href="#">Funcionarios</a>
                     </li>
                 </ul>
@@ -28,7 +38,7 @@
                       <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         <a class="dropdown-item" href="#">Perfil</a>
                         <a class="dropdown-item" href="#">Usuarios</a>
-                        <a class="dropdown-item" href="#">Cerrar Sesi&oacute;n</a>
+                        <a class="dropdown-item" href="../">Cerrar Sesi&oacute;n</a>
                       </div>
                     </div>
                 </form>

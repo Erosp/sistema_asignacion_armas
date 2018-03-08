@@ -105,10 +105,10 @@ $(document).ready(function(){
                                 alert("Error al cargar el formulario");
                             }
 
-                        })
+                        });
                         
                     }
                     
-                })
+                });
                 
-            })
+            });
